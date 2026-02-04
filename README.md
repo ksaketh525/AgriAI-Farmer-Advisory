@@ -1,4 +1,4 @@
- #🌾 AgriAI – Farmer Yield Prediction & Advisory System
+ # 🌾 AgriAI – Farmer Yield Prediction & Advisory System
 
 AgriAI is a machine learning–based agricultural decision support system that predicts crop yield and provides actionable farming recommendations using climate data, pesticide usage, and crop growth stage.  
 The project is designed to be simple, farmer-friendly, and practical for real-world use.
@@ -42,22 +42,61 @@ AgriAI addresses this problem by using historical agricultural and weather data 
 - **APIs:** Open-Meteo, NASA POWER (weather data)
 
 ---
-##📂 Project Structure
+## 📂 Project Structure
 AgriAI-Farmer-Advisory/
+
 ├── app.py                # Streamlit UI
+
 ├── model_training.py     # Model training & saving
+
 ├── chatbot.py            # Farmer assistant
+
 ├── recommendations.py   # Advisory logic
+
 ├── utils.py              # Data & weather utilities
+
 ├── checks.py             # Data validation
+
 ├── data/                 # Datasets
+
 ├── models/               # Trained models
+
 ├── requirements.txt
+
 ├── README.md
 
+---
 
 ## How to Run:
+
 pip install -r requirements.txt
+
 python model_training.py
+
 streamlit run app.py
 
+---
+
+📈 Output
+
+Predicted crop yield (hg/ha)
+
+Confidence range for predictions
+
+Actionable irrigation, fertilizer, and pest control plan
+
+Weather-based alerts and insights
+
+---
+
+🎯 Use Cases
+
+Smart farming decision support
+
+Agricultural data analysis
+
+Machine learning academic project
+
+AgriTech application prototype
+
+---
