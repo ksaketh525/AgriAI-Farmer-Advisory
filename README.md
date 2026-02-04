@@ -54,7 +54,7 @@ AgriAI-Farmer-Advisory/
 ├── models/               # Trained models
 ├── requirements.txt
 ├── README.md
-└── .gitignore
+
 
 ## How to Run:
 pip install -r requirements.txt
