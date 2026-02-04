@@ -1,11 +1,11 @@
-# 🌾 AgriAI – Farmer Yield Prediction & Advisory System
+ #🌾 AgriAI – Farmer Yield Prediction & Advisory System
 
 AgriAI is a machine learning–based agricultural decision support system that predicts crop yield and provides actionable farming recommendations using climate data, pesticide usage, and crop growth stage.  
 The project is designed to be simple, farmer-friendly, and practical for real-world use.
 
 ---
 
-## 📌 Problem Statement
+ ## 📌 Problem Statement
 Farmers often make critical decisions on irrigation, fertilizer, and pest control without data-driven insights. This can lead to low yield, excess cost, and inefficient resource usage.  
 AgriAI addresses this problem by using historical agricultural and weather data to predict crop yield and recommend optimal actions.
 
@@ -42,33 +42,22 @@ AgriAI addresses this problem by using historical agricultural and weather data 
 - **APIs:** Open-Meteo, NASA POWER (weather data)
 
 ---
-
-## 📂 Project Structure
+##📂 Project Structure
 AgriAI-Farmer-Advisory/
-│
-├── app.py # Streamlit application
-├── model_training.py # ML model training script
-├── chatbot.py # Farmer assistant chatbot
-├── recommendations.py # Advisory logic
-├── utils.py # Data loading & weather utilities
-├── checks.py # Data sanity checks
-│
-├── data/ # Input datasets
-│ ├── yield_df.csv
-│ ├── pesticides.csv
-│ ├── rainfall.csv
-│ └── temp.csv
-│
-├── models/ # Trained models (generated)
-│ ├── crop_yield_model.joblib
-│ └── quantiles.joblib
-│
+├── app.py                # Streamlit UI
+├── model_training.py     # Model training & saving
+├── chatbot.py            # Farmer assistant
+├── recommendations.py   # Advisory logic
+├── utils.py              # Data & weather utilities
+├── checks.py             # Data validation
+├── data/                 # Datasets
+├── models/               # Trained models
 ├── requirements.txt
 ├── README.md
+└── .gitignore
 
-1.Install dependencies:
-  pip install -r requirements.txt
-2. Train the model
-  python model_training.py
-3. Run the application
-  streamlit run app.py
+## How to Run:
+pip install -r requirements.txt
+python model_training.py
+streamlit run app.py
+
